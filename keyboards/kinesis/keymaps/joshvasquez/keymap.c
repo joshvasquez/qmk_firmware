@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 			   KC_LGUI,KC_LALT,
                                     KC_HOME,
                            LT(MMEDIA,KC_BSPC), LCTL17 ,LCA_T(KC_F17),
-    KC_F9,KC_F10 ,KC_F11 ,KC_F12 ,KC_PSCR   ,KC_SLCK  ,KC_PAUS, TG(GAMING), RESET,
+    KC_F9,KC_F10 ,KC_F11 ,KC_F12 ,KC_PSCR   ,KC_VOLUP  ,KC_VOLD, TG(GAMING), RESET,
 	KC_6 ,KC_7   ,KC_8   ,KC_9   ,KC_0      ,KC_MINS,
 	KC_Y ,KC_U   ,KC_I   ,KC_O   ,KC_P      ,KC_BSLS,
 	KC_H ,SFT_T(KC_J),LALT_T(KC_K),LGUI_T(KC_L),CTL_T(KC_SCLN),MT_QUOT,
@@ -86,7 +86,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 *                                        | Gui  | Alt  |         | Gui  | Ctrl |
 *                                 ,------|------|------|         |------+------+------.
 *                                 |      |      | Home |         | PgUp |      |      |
-*                                 | Space| Ctrl |------|         |------|Return| BkSp |
+*                                 | BkSp | Ctrl |------|         |------|Return| Space|
 *                                 |      |      | End  |         | PgDn |      |      |
 *                                 `--------------------'         `--------------------'
 */
@@ -174,7 +174,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          _______,  _______,
          _______,
          _______,  _______,  _______
-    ),
+    ), 
 
 };
 
